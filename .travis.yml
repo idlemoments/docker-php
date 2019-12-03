@@ -40,4 +40,4 @@ script:
   - IMAGE="${DOCKER_ACCOUNT}/php:${IMAGE_TAG}"
   - docker build -t $IMAGE $CONTEXT
   - docker images
-#  - docker push $IMAGE
+  - docker push $IMAGE
