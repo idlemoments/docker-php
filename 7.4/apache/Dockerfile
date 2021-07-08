@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
         libicu-dev \
         libxml2-dev \
         libzip-dev \
+        libxslt-dev \
     && docker-php-ext-install pdo pdo_mysql \
     && docker-php-ext-install mysqli \
     && docker-php-ext-enable mysqli \
@@ -17,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install opcache \
     && docker-php-ext-install zip \
     && docker-php-ext-install soap \
+    && docker-php-ext-install xsl \
     && a2enmod rewrite \
     && a2enmod proxy_http \
     && a2enmod ssl
