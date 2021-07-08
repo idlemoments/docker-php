@@ -1,5 +1,11 @@
 # Supported tags and respective `Dockerfile` links
- - `7.3-fpm`, `7-fpm`, `latest` (*[7.3/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/fpm/Dockerfile)*)
+ - `7.4-fpm`, `7-fpm`, `latest` (*[7.4/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/fpm/Dockerfile)*)
+ - `7.4-fpm-dev` (*[7.4/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/fpm/dev/Dockerfile)*)
+ - `7.4-apache-dev` (*[7.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/apache/Dockerfile)*)
+ - `7.4-apache-dev` (*[7.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/apache/dev/Dockerfile)*)
+
+
+ - `7.3-fpm` (*[7.3/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/fpm/Dockerfile)*)
  - `7.3-fpm-dev` (*[7.3/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/fpm/dev/Dockerfile)*)
  - `7.3-apache-dev` (*[7.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/apache/Dockerfile)*)
  - `7.3-apache-dev` (*[7.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/apache/dev/Dockerfile)*)
