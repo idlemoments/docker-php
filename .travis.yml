@@ -1,6 +1,11 @@
 dist: trusty
 env:
-  - IMAGE_TAG=latest CONTEXT=./7.4/fpm/
+  - IMAGE_TAG=latest CONTEXT=./8.0/fpm/
+  - IMAGE_TAG=8.0-fpm CONTEXT=./8.0/fpm/
+  - IMAGE_TAG=8.0-fpm-dev CONTEXT=./8.0/fpm/dev/
+  - IMAGE_TAG=8.0-apache CONTEXT=./8.0/apache/
+  - IMAGE_TAG=8.0-apache-dev CONTEXT=./8.0/apache/dev/
+
   - IMAGE_TAG=7.4-fpm CONTEXT=./7.4/fpm/
   - IMAGE_TAG=7.4-fpm-dev CONTEXT=./7.4/fpm/dev/
   - IMAGE_TAG=7.4-apache CONTEXT=./7.4/apache/
