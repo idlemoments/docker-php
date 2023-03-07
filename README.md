@@ -1,9 +1,19 @@
 # Supported tags and respective `Dockerfile` links
+
+ - `8.1-fpm`, `8-fpm`, `latest` (*[8.1/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.1/fpm/Dockerfile)*)
+ - `8.1-fpm-dev` (*[8.1/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.1/fpm/dev/Dockerfile)*)
+ - `8.1-apache-dev` (*[8.1/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.1/apache/Dockerfile)*)
+ - `8.1-apache-dev` (*[8.1/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.1/apache/dev/Dockerfile)*)
+
+ - `8.0-fpm`, (*[8.0/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.0/fpm/Dockerfile)*)
+ - `8.0-fpm-dev` (*[8.0/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.0/fpm/dev/Dockerfile)*)
+ - `8.0-apache-dev` (*[8.0/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.0/apache/Dockerfile)*)
+ - `8.0-apache-dev` (*[8.0/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.0/apache/dev/Dockerfile)*)
+
  - `7.4-fpm`, `7-fpm`, `latest` (*[7.4/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/fpm/Dockerfile)*)
  - `7.4-fpm-dev` (*[7.4/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/fpm/dev/Dockerfile)*)
  - `7.4-apache-dev` (*[7.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/apache/Dockerfile)*)
  - `7.4-apache-dev` (*[7.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.4/apache/dev/Dockerfile)*)
-
 
  - `7.3-fpm` (*[7.3/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/fpm/Dockerfile)*)
  - `7.3-fpm-dev` (*[7.3/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/7.3/fpm/dev/Dockerfile)*)
@@ -26,13 +36,6 @@
  - `5.6-apache` (*[5.6/apache/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.6/apache/Dockerfile)*)
  - `5.6-apache-dev` (*[5.6/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.6/apache/dev/Dockerfile)*)
  
- - `5.5-fpm` (*[5.5/apache/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.5/fpm/Dockerfile)*)
- - `5.5-fpm-dev` (*[5.5/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.5/fpm/dev/Dockerfile)*)
- - `5.5-apache` (*[5.5/apache/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.5/apache/Dockerfile)*)
- - `5.5-apache-dev` (*[5.5/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.5/apache/dev/Dockerfile)*)
-
- - `5.3-apache` (*[5.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.3/apache/Dockerfile)*)
- - `5.3-apache-dev` (*[5.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/5.3/apache/dev/Dockerfile)*)
 
 # Example Docker Compose Configuration
 
