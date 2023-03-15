@@ -1,3 +1,5 @@
+![Status](https://github.com/idlemoments/docker-php/actions/workflows/ci.yml/badge.svg)
+
 # Supported tags and respective `Dockerfile` links
 
  - `8.2-fpm`, `8-fpm`, `latest` (*[8.2/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.2/fpm/Dockerfile)*)
