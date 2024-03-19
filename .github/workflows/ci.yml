@@ -44,48 +44,6 @@ jobs:
           - image_tag: "8.0-apache"
             context: "./8.0/apache/"
 
-          - image_tag: "7-fpm"
-            context: "./7.4/fpm/"
-          
-          - image_tag: "7-apache"
-            context: "./7.4/apache/"
-
-          - image_tag: "7.4-fpm"
-            context: "./7.4/fpm/"
-          
-          - image_tag: "7.4-apache"
-            context: "./7.4/apache/"
-
-          - image_tag: "7.3-fpm"
-            context: "./7.3/fpm/"
-          
-          - image_tag: "7.3-apache"
-            context: "./7.3/apache/"
-
-          - image_tag: "7.2-fpm"
-            context: "./7.2/fpm/"
-          
-          - image_tag: "7.2-apache"
-            context: "./7.2/apache/"
-
-          - image_tag: "7.1-fpm"
-            context: "./7.1/fpm/"
-          
-          - image_tag: "7.1-apache"
-            context: "./7.1/apache/"
-
-          - image_tag: "7.0-fpm"
-            context: "./7.0/fpm/"
-          
-          - image_tag: "7.0-apache"
-            context: "./7.0/apache/"
-
-          - image_tag: "5.6-fpm"
-            context: "./5.6/fpm/"
-          
-          - image_tag: "5.6-apache"
-            context: "./5.6/apache/"
-
     steps:
       - uses: actions/checkout@v3
 
@@ -137,48 +95,6 @@ jobs:
           
           - image_tag: "8.0-apache-dev"
             context: "./8.0/apache/dev"
-
-          - image_tag: "7-fpm-dev"
-            context: "./7.4/fpm/dev"
-          
-          - image_tag: "7-apache-dev"
-            context: "./7.4/apache/dev"
-
-          - image_tag: "7.4-fpm-dev"
-            context: "./7.4/fpm/dev"
-          
-          - image_tag: "7.4-apache-dev"
-            context: "./7.4/apache/dev"
-
-          - image_tag: "7.3-fpm-dev"
-            context: "./7.3/fpm/dev"
-          
-          - image_tag: "7.3-apache-dev"
-            context: "./7.3/apache/dev"
-
-          - image_tag: "7.2-fpm-dev"
-            context: "./7.2/fpm/dev"
-          
-          - image_tag: "7.2-apache-dev"
-            context: "./7.2/apache/dev"
-
-          - image_tag: "7.1-fpm-dev"
-            context: "./7.1/fpm/dev"
-          
-          - image_tag: "7.1-apache-dev"
-            context: "./7.1/apache/dev"
-
-          - image_tag: "7.0-fpm-dev"
-            context: "./7.0/fpm/dev"
-          
-          - image_tag: "7.0-apache-dev"
-            context: "./7.0/apache/dev"
-
-          - image_tag: "5.6-fpm-dev"
-            context: "./5.6/fpm/dev"
-          
-          - image_tag: "5.6-apache-dev"
-            context: "./5.6/apache/dev"
 
     steps:
       - uses: actions/checkout@v3
