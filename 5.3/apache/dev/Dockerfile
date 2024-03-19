@@ -1,4 +1,4 @@
-FROM idlemoments/php:5.3-apache
+FROM viusystems/php:5.3-apache
 
 RUN pecl install xdebug-2.2.7 && \
     touch "$PHP_INI_DIR/conf.d/xdebug.ini" && \

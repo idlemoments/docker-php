@@ -1,4 +1,4 @@
-FROM idlemoments/php:8.2-fpm
+FROM viusystems/php:8.2-fpm
 
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug
