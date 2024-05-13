@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - "**"
 
 jobs:
   build-main:
@@ -11,18 +11,21 @@ jobs:
     strategy:
       matrix:
         include:
-          - image_tag: "latest"
-            context: "./8.2/fpm/"
+          - image_tag: "fpm-latest"
+            context: "./8.3/fpm/"
 
-          - image_tag: "8-fpm"
-            context: "./8.2/fpm/"
+          - image_tag: "apache-latest"
+            context: "./8.3/fpm/"
+
+          - image_tag: "8.3-fpm"
+            context: "./8.3/fpm/"
           
-          - image_tag: "8-apache"
-            context: "./8.2/apache/"
-
+          - image_tag: "8.3-apache"
+            context: "./8.3/apache/"
+          
           - image_tag: "8.2-fpm"
             context: "./8.2/fpm/"
-          
+
           - image_tag: "8.2-apache"
             context: "./8.2/apache/"
 
@@ -34,7 +37,7 @@ jobs:
 
           - image_tag: "8.0-fpm"
             context: "./8.0/fpm/"
-          
+
           - image_tag: "8.0-apache"
             context: "./8.0/apache/"
 
@@ -102,11 +105,17 @@ jobs:
     strategy:
       matrix:
         include:
-          - image_tag: "8-fpm-dev"
-            context: "./8.2/fpm/dev"
+          - image_tag: "fpm-latest-dev"
+            context: "./8.3/fpm/dev"
 
-          - image_tag: "8-apache-dev"
-            context: "./8.2/apache/dev"
+          - image_tag: "apache-latest-dev"
+            context: "./8.3/fpm/dev"
+
+          - image_tag: "8.3-fpm-dev"
+            context: "./8.3/fpm/dev"
+
+          - image_tag: "8.3-apache-dev"
+            context: "./8.3/apache/dev"
 
           - image_tag: "8.2-fpm-dev"
             context: "./8.2/fpm/dev"
