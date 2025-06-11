@@ -22,14 +22,14 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./${{ matrix.version }}/${{ matrix.engine }}/
           push: true
           tags: "idlemoments/php:latest-${{ matrix.engine }}"
 
       - name: Build and push Docker dev image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./${{ matrix.version }}/${{ matrix.engine }}/dev/
           push: true
@@ -51,14 +51,14 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./${{ matrix.version }}/${{ matrix.engine }}/
           push: true
           tags: "idlemoments/php:${{ matrix.version }}-${{ matrix.engine }}"
 
       - name: Build and push Docker dev image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./${{ matrix.version }}/${{ matrix.engine }}/dev/
           push: true
