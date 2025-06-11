@@ -3,10 +3,15 @@
 # Supported tags and respective `Dockerfile` links
 
 
- - `8.3-fpm`, `latest-fpm` (*[8.3/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/fpm/Dockerfile)*)
- - `8.3-fpm-dev`, `latest-fpm-dev` (*[8.3/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/fpm/dev/Dockerfile)*)
- - `8.3-apache-dev`, `latest-apache` (*[8.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/apache/Dockerfile)*)
- - `8.3-apache-dev`, `latest-apache-dev` (*[8.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/apache/dev/Dockerfile)*)
+ - `8.4-fpm`, `latest-fpm` (*[8.4/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.4/fpm/Dockerfile)*)
+ - `8.4-fpm-dev`, `latest-fpm-dev` (*[8.4/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.4/fpm/dev/Dockerfile)*)
+ - `8.4-apache-dev`, `latest-apache` (*[8.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.4/apache/Dockerfile)*)
+ - `8.4-apache-dev`, `latest-apache-dev` (*[8.4/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.4/apache/dev/Dockerfile)*)
+
+ - `8.3-fpm` (*[8.3/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/fpm/Dockerfile)*)
+ - `8.3-fpm-dev` (*[8.3/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/fpm/dev/Dockerfile)*)
+ - `8.3-apache-dev` (*[8.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/apache/Dockerfile)*)
+ - `8.3-apache-dev` (*[8.3/apache/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.3/apache/dev/Dockerfile)*)
 
  - `8.2-fpm` (*[8.2/fpm/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.2/fpm/Dockerfile)*)
  - `8.2-fpm-dev` (*[8.2/fpm/dev/Dockerfile](https://github.com/idlemoments/docker-php/blob/master/8.2/fpm/dev/Dockerfile)*)
