@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["8.4", "8.3", "8.2", "8.1", "8.0", "7.4"]
+        version: ["8.4", "8.3", "8.2"]
         engine: ["fpm","apache"]
     steps:
       - uses: actions/checkout@v4
